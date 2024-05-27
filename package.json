@@ -1,0 +1,21 @@
+{
+  "name": "a-plus-dark",
+  "displayName": "A Plus Dark",
+  "description": "A dark theme which works with a plus",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "A Plus Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/A Plus Dark-color-theme.json"
+      }
+    ]
+  }
+}
