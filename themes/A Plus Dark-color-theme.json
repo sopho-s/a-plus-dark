@@ -1,5 +1,41 @@
 {
 	"name": "A Plus Dark",
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"enumMember": {
+		"foreground": "#56b6c2"
+		},
+		"variable.constant": {
+		"foreground": "#d19a66"
+		},
+		"variable": {
+		"foreground": "#d19a66"
+		},
+		"variable.defaultLibrary": {
+		"foreground": "#e5c07b"
+		},
+		"variable:dart": {
+		"foreground": "#d19a66"
+		},
+		"property:dart": {
+		"foreground": "#d19a66"
+		},
+		"annotation:dart": {
+		"foreground": "#d19a66"
+		},
+		"parameter.label:dart": {
+		"foreground": "#abb2bf"
+		},
+		"macro": {
+		"foreground": "#d19a66"
+		},
+		"tomlArrayKey": {
+		"foreground": "#e5c07b"
+		},
+		"memberOperatorOverload": {
+		"foreground": "#c678dd"
+		}
+	},
 	"colors": {
 		"editor.background": "#263238",
 		"editor.foreground": "#eeffff",
@@ -17,6 +53,30 @@
 				"fontStyle": "italic",
 				"foreground": "#546E7A"
 			}
+		},
+		{
+			"name": "variable",
+			"scope": [
+				"constant.other.placeholder"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#c55e1a"
+			}
+		},
+		{
+		  "name": "Variables",
+		  "scope": "variable",
+		  "settings": {
+			"foreground": "#e06c75"
+		  }
+		},
+		{
+		  "name": "Language variables",
+		  "scope": "variable.language",
+		  "settings": {
+			"foreground": "#e5c07b"
+		  }
 		},
 		{
 			"name": "Variables",
@@ -55,7 +115,34 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#6adafc"
+			}
+		},
+		{
+			"name": "Function name",
+			"scope": [
+				"keyword.functionname"
+			],
+			"settings": {
+				"foreground": "#b80505"
+			}
+		},
+		{
+			"name": "basic operator",
+			"scope": [
+				"operator"
+			],
+			"settings": {
+				"foreground": "#47ddb0"
+			}
+		},
+		{
+			"name": "pipe parameters operator",
+			"scope": [
+				"keyword.parameterpass"
+			],
+			"settings": {
+				"foreground": "#65baf3"
 			}
 		},
 		{
@@ -603,6 +690,34 @@
 			],
 			"settings": {
 				"foreground": "#65737E"
+			}
+		},
+		{
+			"name": "go operator",
+			"scope": [
+			  "keyword.operator.assignment.go"
+			],
+			"settings": {
+			  "foreground": "#e5c07b"
+			}
+		},
+		{
+			"name": "go operator",
+			"scope": [
+			  "keyword.operator.arithmetic.go",
+			  "keyword.operator.address.go"
+			],
+			"settings": {
+			  "foreground": "#c678dd"
+			}
+		},
+		{
+			"name": "Go package name",
+			"scope": [
+			  "entity.name.package.go"
+			],
+			"settings": {
+			  "foreground": "#e5c07b"
 			}
 		},
 		{

@@ -1,0 +1,12 @@
+#include
+func test(int temp, int temp2) (int) {
+    temp = temp + temp2 + 1;
+    return temp;
+}
+func main() () {
+    int a = 4;
+    int b = 21;
+    int d = a * b * a; // 336
+    int f = b + 2 * a; // 31
+    int temp = test <<< 3 <<< 2;
+}
