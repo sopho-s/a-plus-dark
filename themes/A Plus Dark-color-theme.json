@@ -119,6 +119,15 @@
 			}
 		},
 		{
+			"name": "Keyword truth",
+			"scope": [
+				"keyword.truthstatements"
+			],
+			"settings": {
+				"foreground": "#ff9100"
+			}
+		},
+		{
 			"name": "Function name",
 			"scope": [
 				"keyword.functionname"
